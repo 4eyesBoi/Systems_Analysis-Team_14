@@ -11,7 +11,7 @@
 
 ## Team Members
 - Juan David Ávila 20232020154
-- Raúl Diaz (CODIGO)
+- Raúl Andres Diaz 20232020058
 - Juan David Bejarano Cristancho 20232020056
 - David Sanchez Acero 20232020049
 
