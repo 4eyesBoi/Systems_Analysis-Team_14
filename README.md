@@ -25,6 +25,6 @@ In this workshop, we developed the **first phase of the project**, which include
 - **Initial data exploration:** Reviewing the dataset characteristics (≈2,927 users, over 3 million tweets, 337 derived variables).  
 - **Work plan design:** Defining tasks and team roles for data collection, feature engineering, and preparation for machine learning models.  
 - **Complexity discussion:** Identifying challenges such as extreme class imbalance, high dimensionality, and sensitivity to initial conditions.
-- [Click here to view the Workshop #1 PDF](INSERT_LINK_TO_PDF_HERE)
+- [Click here to view the Workshop #1 PDF](Workshop.pdf)
 
 ---
