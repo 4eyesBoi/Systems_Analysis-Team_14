@@ -18,7 +18,7 @@
 ---
 
 ## Workshop #1 Summary
-In this workshop, we developed the **first phase of the project**, which included:
+In this workshop, we developed the **first phase of the project**, which included: 
 
 - **Competition review:** Understanding the *Psychopathy Prediction Based on Twitter Usage* challenge organized by the Online Privacy Foundation (2012).  
 - **Preliminary problem analysis:** Identifying the main objectives (predicting psychopathy in Twitter users) and understanding the evaluation metrics.  
