@@ -39,7 +39,7 @@ In this workshop, we developed the **first phase of the project**, which include
 
 - The team also prepared an **implementation plan** that outlines the main stages of the project—from data preparation to deployment—and selected the tools that will support this process, such as Python libraries for analysis and GitHub for collaboration.
 
-- [Click here to view the Workshop #2 PDF](Docs/Workshop_2.pdf)
+- [Click here to view the Workshop #2 PDF](Docs/Workshp_2.pdf)
 
 ---
 
