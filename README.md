@@ -28,3 +28,15 @@ In this workshop, we developed the **first phase of the project**, which include
 - [Click here to view the Workshop #1 PDF](Docs/Workshop 1.pdf)
 
 ---
+
+## Workshop #2 Summary
+During this second workshop, the team moved from the analytical phase carried out in Workshop #1 to the **design stage** of the psychopathy prediction system. The goal was to translate the previous findings—related to complexity, chaos, and sensitivity—into a clear and structured system proposal.
+
+Throughout the session, the group designed a **modular system architecture** capable of handling large volumes of linguistic and behavioral data from Twitter. This included defining how data would be collected, processed, and analyzed through different layers such as data ingestion, feature engineering, modeling, and evaluation.
+
+Based on the challenges identified earlier, several design decisions were made to **control sensitivity and chaotic behavior**, including organizing the workflow to improve reproducibility and integrating mechanisms for feedback and monitoring during model development.
+
+The team also prepared an **implementation plan** that outlines the main stages of the project—from data preparation to deployment—and selected the tools that will support this process, such as Python libraries for analysis and GitHub for collaboration.
+
+Compared to Workshop #1, this stage marked clear progress: the focus evolved from understanding the system’s complexity to **structuring a concrete design** that prepares the groundwork for implementation and testing in future phases.
+
