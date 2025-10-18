@@ -38,6 +38,7 @@ In this workshop, we developed the **first phase of the project**, which include
 
 - The team also prepared an **implementation plan** that outlines the main stages of the project—from data preparation to deployment—and selected the tools that will support this process, such as Python libraries for analysis and GitHub for collaboration.
 
-- Compared to Workshop #1, this stage marked clear progress: the focus evolved from understanding the system’s complexity to **structuring a concrete design** that prepares the groundwork for implementation and testing in future phases.
 - [Click here to view the Workshop #2 PDF](Docs/Workshop_2.pdf)
+
+---
 
