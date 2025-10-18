@@ -6,6 +6,7 @@
 ## Table of Contents
 - [Team Members](#team-members)
 - [Workshop #1](#workshop-1-summary)
+- [Workshop #2](#workshop-2-summary)
 
 ---
 
