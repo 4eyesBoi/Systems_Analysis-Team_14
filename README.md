@@ -26,20 +26,28 @@ In this workshop, we developed the **first phase of the project**, which include
 - **Initial data exploration:** Reviewing the dataset characteristics (≈2,927 users, over 3 million tweets, 337 derived variables).  
 - **Work plan design:** Defining tasks and team roles for data collection, feature engineering, and preparation for machine learning models.  
 - **Complexity discussion:** Identifying challenges such as extreme class imbalance, high dimensionality, and sensitivity to initial conditions.
-- [Click here to view the Workshop #1 PDF](Docs/Workshop 1.pdf)
+- [Click here to view the Workshop #1 PDF](Docs/Workshop_1.pdf)
 
 ---
 
 ## Workshop #2 Summary
 - During this second workshop, the team moved from the analytical phase carried out in Workshop #1 to the **design stage** of the psychopathy prediction system. The goal was to translate the previous findings—related to complexity, chaos, and sensitivity—into a clear and structured system proposal.
-
 - Throughout the session, the group designed a **modular system architecture** capable of handling large volumes of linguistic and behavioral data from Twitter. This included defining how data would be collected, processed, and analyzed through different layers such as data ingestion, feature engineering, modeling, and evaluation.
-
 - Based on the challenges identified earlier, several design decisions were made to **control sensitivity and chaotic behavior**, including organizing the workflow to improve reproducibility and integrating mechanisms for feedback and monitoring during model development.
-
 - The team also prepared an **implementation plan** that outlines the main stages of the project—from data preparation to deployment—and selected the tools that will support this process, such as Python libraries for analysis and GitHub for collaboration.
-
-- [Click here to view the Workshop #2 PDF](Docs/Workshp_2.pdf)
+- [Click here to view the Workshop #2 PDF](Docs/Workshop_2.pdf)
 
 ---
 
+## Workshop #3 Summary
+In this third workshop, the team focused on refining the **system architecture** and establishing a **robust project management plan** to ensure reliability, ethical operation, and continuous improvement of the *Psychopathy Prediction System*.
+
+- The group restructured the system into a **layered, feedback-driven architecture** that transforms unstructured Twitter data into interpretable insights. This new design includes components for data cleaning, behavioral feature analysis, prediction engines, ethical control, and system monitoring.  
+- Each layer was analyzed in detail to understand its function and interconnection, emphasizing **stability, fairness, and modularity**. The team also introduced an **Ethics & Control Layer** to guarantee responsible use of data and prevent discriminatory outcomes.  
+- A **Quality and Risk Analysis** was conducted to identify potential issues such as data imbalance, feedback instability, and latency. Specific mitigation strategies were proposed, including resampling methods, performance thresholds, and monitoring mechanisms.  
+- The **Project Management Plan** defined clear roles for each team member, a Kanban-based workflow using Trello, and a timeline of milestones for model development, evaluation, and integration.  
+- Additionally, several **incremental improvements** were made, such as establishing controlled feedback loops, integrating a shared Data Hub, clarifying task priorities, and adding parallel layers for ethics and monitoring.  
+- Finally, the team reflected on how robustness in system design arises not from complexity but from awareness and adaptability. The updated architecture now behaves as a **self-regulating structure**, capable of maintaining stability and ethical integrity even in dynamic environments.  
+[Click here to view the Workshop #3 PDF](Docs/Workshop_3.pdf)
+
+---
