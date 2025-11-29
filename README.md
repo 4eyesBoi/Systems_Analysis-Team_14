@@ -53,10 +53,12 @@ In this third workshop, the team focused on refining the **system architecture**
 ---
 
 ## Workshop #4 summary
-In this fourth workshop, the team transitioned from system design and architectural refinement toward the implementation and simulation phase of the Psychopathy Prediction System.Building on the insights developed in Workshops #1, #2, and #3, the objective of this stage was to validate the proposed architecture through computational experimentation and to explore emergent behaviors within the system.
+In this fourth workshop, the team completed the practical implementation and simulation-based analysis of the Psychopathy Prediction System, translating architectural design from Workshop 3 into a working machine learning pipeline.
 
-- The group implemented two complementary simulation approaches designed to test different dimensions of the system. 
-- The first focused on data-driven simulation, using classical machine learning models to mimic basic processes such as training, evaluation, and prediction. This scenario allowed the team to observe learning dynamics, examine performance variations, and detect potential sensitivity issues in the model process. 
-- The second simulation was event-based and used an adapted simulation model to represent spatial or event-driven interactions relevant to the system's behavioral analysis components. The simulations focused on predefined architectural layers, ensuring consistency with the system's modular workflow.
-- Throughout the workshop, the team ran these simulations with different configurations to analyze how changes in parameters, perturbations, or data segments affected the system.
-- This experimentation identified bottlenecks, emerging patterns, and potential chaotic behaviors, reinforcing the importance of feedback control and stable workflow design.
+- The group executed a complete data balancing strategy using SMOGN and DOOM Data techniques to address severe class imbalance (only ~3% in high psychopathy range), enabling effective learning of extreme cases.
+- A Random Forest Regressor model was trained on balanced data, achieving exceptional precision with test MSE of 0.000070. Model stability was validated across multiple seeds (MSE range: 0.000031–0.000219).
+- Stability and Sensitivity Analysis revealed robustness to small perturbations (1–3% noise) but fragility under larger disturbances (10% noise: MSE 0.003689), establishing critical requirements for input validation in production.
+- Event-Based Simulation employed a cellular automaton to model emergent behavioral dynamics, tracking how psychopathy traits propagate through populations via neighborhood influence and temporal evolution patterns.
+- Limitations were documented with a comprehensive roadmap for future work, including percentile-specific metrics, robust ensemble models (XGBoost, LightGBM), and continuous validation pipelines.
+- Workshop 4 demonstrated how theoretical architecture principles translate into measurable system performance, establishing a foundation for production deployment with clear understanding of model capabilities and operational safeguards.
+[Click here to view the Workshop #4 PDF](Docs/Workshop_4.pdf)
