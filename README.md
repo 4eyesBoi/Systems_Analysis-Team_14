@@ -63,4 +63,4 @@ In this fourth workshop, the team completed the practical implementation and sim
 - Limitations were documented with a comprehensive roadmap for future work, including percentile-specific metrics, robust ensemble models (XGBoost, LightGBM), and continuous validation pipelines.
 - Workshop 4 demonstrated how theoretical architecture principles translate into measurable system performance, establishing a foundation for production deployment with clear understanding of model capabilities and operational safeguards.
 
-[Click here to view the Workshop #4 PDF](Docs/Workshop_4.pdf)
+
