@@ -51,3 +51,12 @@ In this third workshop, the team focused on refining the **system architecture**
 [Click here to view the Workshop #3 PDF](Docs/Workshop_3.pdf)
 
 ---
+
+## Workshop #4 summary
+In this fourth workshop, the team transitioned from system design and architectural refinement toward the implementation and simulation phase of the Psychopathy Prediction System.Building on the insights developed in Workshops #1, #2, and #3, the objective of this stage was to validate the proposed architecture through computational experimentation and to explore emergent behaviors within the system.
+
+-The group implemented two complementary simulation approaches designed to test different dimensions of the system. 
+-The first focused on data-driven simulation, using classical machine learning models to mimic basic processes such as training, evaluation, and prediction. This scenario allowed the team to observe learning dynamics, examine performance variations, and detect potential sensitivity issues in the model process. 
+-The second simulation was event-based and used an adapted simulation model to represent spatial or event-driven interactions relevant to the system's behavioral analysis components. The simulations focused on predefined architectural layers, ensuring consistency with the system's modular workflow.
+-Throughout the workshop, the team ran these simulations with different configurations to analyze how changes in parameters, perturbations, or data segments affected the system.
+-This experimentation identified bottlenecks, emerging patterns, and potential chaotic behaviors, reinforcing the importance of feedback control and stable workflow design.
