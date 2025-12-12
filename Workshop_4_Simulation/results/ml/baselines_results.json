@@ -1,0 +1,22 @@
+[
+  {
+    "model": "Linear (RAW)",
+    "mse_mean": 0.2430030851797061,
+    "mse_std": 0.026386549278350817
+  },
+  {
+    "model": "RandomForest (RAW)",
+    "mse_mean": 0.23616514843312583,
+    "mse_std": 0.013953734592788045
+  },
+  {
+    "model": "RandomForest (DOOM DATA)",
+    "mse_mean": 0.00023600812882072875,
+    "mse_std": 0.00033156510428032816
+  },
+  {
+    "model": "XGBoost (DOOM DATA)",
+    "mse_mean": 0.00012926300360988047,
+    "mse_std": 0.00015880800704284642
+  }
+]

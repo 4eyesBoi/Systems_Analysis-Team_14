@@ -1,0 +1,45 @@
+
+╔════════════════════════════════════════════════════════════════════╗
+║         WORKSHOP 4 SIMULATION - COMPARATIVE SUMMARY                ║
+╚════════════════════════════════════════════════════════════════════╝
+
+SCENARIO 1: Data-driven Simulation (ML-based)
+─────────────────────────────────────────────
+Purpose: Evaluate model stability and sensitivity to random seeds
+Type: Machine Learning with perturbation analysis
+Algorithm: Random Forest Regressor
+Parameters Tested:
+  • 6 different random seeds (1, 5, 10, 21, 42, 99)
+  • 4 noise levels (1%, 3%, 5%, 10% of feature std)
+Key Findings:
+  • Model shows high variance across seeds
+  • Noise sensitivity: moderate impact
+
+SCENARIO 2: Event-based Simulation (Cellular Automata)
+─────────────────────────────────────────────────────
+Purpose: Model spatial emergence and clustering in psychopathy
+Type: Cellular Automata on 2D grid
+Algorithm: Neighbor-based local updates with environmental noise
+Parameters:
+  • Grid size: 40×40 cells
+  • Iterations: 80 steps
+  • Neighbor weight: 0.6
+  • Environmental noise: 0.03
+Key Observations:
+  • Evolution of spatial patterns over time
+  • Emergent clustering of high-risk regions
+  • Temporal dynamics of mean and variance
+
+INTEGRATION INSIGHTS
+──────────────────
+Scenario 1 assesses model robustness; Scenario 2 explores spatial dynamics
+Both validate the system design under different conditions:
+  • ML simulation: temporal/seed stability
+  • CA simulation: spatial emergence and chaos
+
+Recommendations:
+  • Monitor seed variance in production deployments
+  • Account for spatial clustering in risk assessment
+  • Consider ensemble approaches to improve robustness
+
+Generated: 2025-12-11 16:39:58

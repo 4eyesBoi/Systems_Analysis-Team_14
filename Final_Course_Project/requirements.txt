@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+scipy
+seaborn
+xgboost
+smogn
+
+# Opcional / utilidades
+# jupyter               # si quieres notebooks
+# black                 # formato de código
